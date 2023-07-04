@@ -1,3 +1,22 @@
-
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+header .header__logo h3 {
+  font-family: "Actor";
+}
+header nav .header__menu {
+  display: flex;
+  list-style: none;
+}
+header nav .header__menu a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
 
 /*# sourceMappingURL=estilos.css.map */
