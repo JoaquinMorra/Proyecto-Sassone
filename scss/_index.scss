@@ -159,6 +159,26 @@ header{
     justify-content: center;
     .column{
         text-align: center;
+        position: relative;
+        &:not(:last-child)::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -5px;
+            bottom: 0%;
+            width: 1px;
+            margin: auto;
+            background-color: #a7a7a7;
+        }
+
+        // border-right: 1px solid #a7a7a7;
+        // border-left: 1px solid #a7a7a7;
+        // &:first-child{
+        //     border-left: none;
+        // }
+        // &:last-child{
+        //     border-right: none;
+        // }
         .circle{
             display: flex;
             flex-direction: column;
@@ -176,6 +196,8 @@ header{
             p{
                 margin-top: 5px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
+                padding-left: 20px;
+                padding-right: 40px;
             }
         }
 
