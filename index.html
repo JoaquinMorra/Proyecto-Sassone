@@ -13,21 +13,30 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Actor&family=Cinzel&family=Lexend+Peta:wght@300&family=Nunito:wght@300&family=Poppins:wght@100&family=Prompt:ital,wght@1,200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Actor&family=Cinzel&family=Lexend+Peta:wght@300&family=Poppins:wght@100&family=Prompt:ital,wght@1,200&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Actor&family=Cinzel&family=Lexend+Peta:wght@300&family=Nunito:wght@300&family=Poppins:wght@100&family=Prompt:ital,wght@1,200&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Actor&family=Cinzel&family=Lexend+Peta:wght@300&family=Poppins:wght@100&family=Prompt:ital,wght@1,200&display=swap"
+            rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
     </head>
 
     <body>
+
         <header>
+            <!-- Spinner -->
+            <div class="spinner-overlay">
+                <div class="spinner"></div>
+            </div>
             <div class="header__logo">
-                <h3>Sassone.</h3>
+                <h3><a href="./index.html">Sassone</a></h3>
             </div>
             <nav>
                 <ul class="header__menu">
-                    <li><a class="lista__nav" href="index.html">INICIO</a></li>
+                    <li><a class="lista__nav" href="./index.html">INICIO</a></li>
                     <li><a class="lista__nav" href="./pages/productos.html">PRODUCTOS</a></li>
                     <li><a class="lista__nav" href="./pages/nosotros.html">NOSOTROS</a></li>
                     <li><a class="lista__nav" href="./pages/contacto.html">CONTACTO</a></li>
@@ -36,38 +45,62 @@
         </header>
 
         <main>
+            <!-- Slider -->
+            <div class="slider">
+                <div class="slide">
+                  <img src="/img/imagen1.png" alt="Imagen 1">
+                  <h2>Más de 50 años de trayectoria</h2>
+                </div>
+                <div class="slide">
+                  <img src="/img/imagen2.png" alt="Imagen 2">
+                  <h2>Hilos calidad premium</h2>
+                </div>
+                <div class="slide">
+                  <img src="/img/imagen3.png" alt="Imagen 3">
+                  <h2>Envíos a todo el país</h2>
+                </div>
+                <div class="prev-slide">
+                  <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="next-slide">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
 
+              <!-- Seccion Container -->
+            <section>
+                <div class="container__calidad">
+                    <div class="column">
+                        <div class="circle">
+                            <img class="img__trayectoria" src="./img/trayectoriA.png" alt="Trayectoria">
+                            <h3>Trayectoria</h3>
+                            <p>Contamos con mas de 50 años de trayectoria en el rubro, y una amplica cartera de
+                                clientes.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="circle">
+                            <img class="img__calidad" src="./img/CalidaDD.png" alt="Calidad">
+                            <h3>Calidad</h3>
+                            <p>Siempre enfocados en lograr productos de alta calidad</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="circle">
+                            <img class="img__garantia" src="./img/garantiA.png" alt="Garantia">
+                            <h3>Garantia</h3>
+                            <p>Nuestro proceso productivo de excelencia da como resultado productos garantidos que
+                                cumplen con todas las normas y standards</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-
-        <section>
-            <div class="container__calidad">
-                <div class="column">
-                    <div class="circle">
-                        <img class="img__trayectoria" src="./img/trayectoriA.png" alt="Trayectoria">
-                        <h3>Trayectoria</h3>
-                        <p>Contamos con mas de 50 años de trayectoria en el rubro, y una amplica cartera de clientes.</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="circle">
-                        <img class="img__calidad" src="./img/CalidaDD.png" alt="Calidad">
-                        <h3>Calidad</h3>
-                        <p>Siempre enfocados en lograr productos de alta calidad</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="circle">
-                        <img class="img__garantia" src="./img/garantiA.png" alt="Garantia">
-                        <h3>Garantia</h3>
-                        <p>Nuestro proceso productivo de excelencia da como resultado productos garantidos que cumplen con todas las normas y standards</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <footer>
 
         </footer>
+        <script src="./js/app.js"></script>
     </body>
 
     </html>
