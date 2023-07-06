@@ -1,4 +1,3 @@
-
 header{
     display: flex;
     justify-content: space-around;
@@ -9,6 +8,8 @@ header{
     .header__logo{
         h3{
             font-family: 'Actor';
+            color: #0000d0;
+            font-weight: 500;
         }
     }
     nav{
@@ -19,8 +20,47 @@ header{
                 text-decoration: none;
                 color: black;
                 margin: 10px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                &:hover{
+                    color: #0000d0;
+                }
+                
 
             }
         }
     }
+}
+
+// Section 1 --> Columnas con circulos
+.container__calidad{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    .column{
+        text-align: center;
+        .circle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 200px;
+                height: auto;
+                object-fit: contain;
+            }
+            h3{
+                margin-bottom: 10px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 5px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+            }
+        }
+
+    }
+
 }
