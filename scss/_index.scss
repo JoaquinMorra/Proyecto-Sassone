@@ -2,6 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 header{
+    padding: 18px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -21,7 +22,7 @@ header{
             list-style: none;
             a{
                 text-decoration: none;
-                color: black;
+                color: #716b6b;
                 margin: 10px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 font-weight: 600;
@@ -192,12 +193,14 @@ header{
                 margin-bottom: 10px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 font-weight: bold;
+                color: #716b6b;
             }
             p{
                 margin-top: 5px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 padding-left: 20px;
                 padding-right: 40px;
+                color: #858181;
             }
         }
 

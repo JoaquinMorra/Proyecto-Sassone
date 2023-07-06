@@ -7,6 +7,7 @@
 }
 
 header {
+  padding: 18px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,7 +26,7 @@ header nav .header__menu {
 }
 header nav .header__menu a {
   text-decoration: none;
-  color: black;
+  color: #716b6b;
   margin: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 600;
@@ -165,12 +166,14 @@ header nav .header__menu a:hover {
   margin-bottom: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bold;
+  color: #716b6b;
 }
 .container__calidad .column .circle p {
   margin-top: 5px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   padding-left: 20px;
   padding-right: 40px;
+  color: #858181;
 }
 
 /*# sourceMappingURL=estilos.css.map */
