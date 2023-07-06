@@ -35,6 +35,17 @@ header nav .header__menu a:hover {
 }
 .container__calidad .column {
   text-align: center;
+  position: relative;
+}
+.container__calidad .column:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -5px;
+  bottom: 0%;
+  width: 1px;
+  margin: auto;
+  background-color: #a7a7a7;
 }
 .container__calidad .column .circle {
   display: flex;
@@ -54,6 +65,8 @@ header nav .header__menu a:hover {
 .container__calidad .column .circle p {
   margin-top: 5px;
   font-family: "M PLUS Rounded 1c", sans-serif;
+  padding-left: 20px;
+  padding-right: 40px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
