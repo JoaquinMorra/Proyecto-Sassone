@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 header {
   padding: 18px;
   padding-bottom: 13px;
@@ -41,6 +42,8 @@ header nav .header__menu a:hover {
   color: #0000d0;
 }
 
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 .spinner-overlay {
   position: fixed;
   top: 0;
@@ -57,7 +60,7 @@ header nav .header__menu a:hover {
 }
 .spinner-overlay .spinner {
   border: 4px solid #f3f3f3; /* color del borde del spinner */
-  border-top: 4px solid blue; /* color del borde superior del spinner */
+  border-top: 4px solid lightskyblue; /* color del borde superior del spinner */
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -79,6 +82,7 @@ header nav .header__menu a:hover {
     opacity: 0;
   }
 }
+<<<<<<< HEAD
 
 .slider {
   position: relative;
@@ -136,9 +140,11 @@ header nav .header__menu a:hover {
 .slider .next-slide.next-slide {
   right: 10px;
 }
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 
 .container__calidad {
-  margin-top: 30px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
@@ -156,11 +162,13 @@ header nav .header__menu a:hover {
   width: 1px;
   margin: auto;
   background-color: #a7a7a7;
+  height: 250px;
 }
 .container__calidad .column .circle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 25px;
 }
 .container__calidad .column .circle img {
   width: 200px;
@@ -171,14 +179,15 @@ header nav .header__menu a:hover {
   margin-bottom: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bold;
-  color: #010b81;
+  color: lightskyblue;
+  padding-top: 10px;
 }
 .container__calidad .column .circle p {
   margin-top: 5px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   padding-left: 20px;
   padding-right: 40px;
-  color: #474444;
+  color: grey;
 }
 
 section .container__nosotros {
@@ -259,6 +268,7 @@ section .container__nosotros .columna__texto h3 {
   color: #474444;
 }
 
+<<<<<<< HEAD
 section .grid__container-formulario {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -280,4 +290,6 @@ section .grid__container-formulario .columna__formulario input {
   margin-bottom: 10px;
 }
 
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 /*# sourceMappingURL=estilos.css.map */

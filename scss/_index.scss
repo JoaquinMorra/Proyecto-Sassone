@@ -1,5 +1,6 @@
 // Importamos Font Awesome
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+<<<<<<< HEAD
 
 header{
     padding: 18px;
@@ -43,6 +44,8 @@ header{
     }
 }
 
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 // Spinnner
 
 .spinner-overlay {
@@ -61,7 +64,7 @@ header{
   
     .spinner {
       border: 4px solid #f3f3f3; /* color del borde del spinner */
-      border-top: 4px solid blue; /* color del borde superior del spinner */
+      border-top: 4px solid lightskyblue; /* color del borde superior del spinner */
       border-radius: 50%;
       width: 50px;
       height: 50px;
@@ -87,70 +90,6 @@ header{
     }
   }
   
-// Slider
-.slider {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-  
-    .slide {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-  
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-        opacity: 0.7;
-        display: block; /* Añadir display:block; */
-      }
-  
-      h2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 24px;
-        color: #fff;
-        text-align: center;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        z-index: 1;
-      }
-    }
-  
-    .slide.active {
-      opacity: 1;
-    }
-  
-    .prev-slide,
-    .next-slide {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 24px;
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 10px;
-      cursor: pointer;
-  
-      &.prev-slide {
-        left: 10px;
-      }
-  
-      &.next-slide {
-        right: 10px;
-      }
-    }
-  }
-  
- 
 
 
 
@@ -158,7 +97,7 @@ header{
 
 // Section 1 --> Columnas con circulos
 .container__calidad{
-    margin-top: 30px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
@@ -174,6 +113,7 @@ header{
             width: 1px;
             margin: auto;
             background-color: #a7a7a7;
+            height: 250px;
         }
 
         // border-right: 1px solid #a7a7a7;
@@ -188,6 +128,7 @@ header{
             display: flex;
             flex-direction: column;
             align-items: center;
+            padding-bottom: 25px;
             img{
                 width: 200px;
                 height: auto;
@@ -197,14 +138,15 @@ header{
                 margin-bottom: 10px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 font-weight: bold;
-                color: #010b81;
+                color: lightskyblue;
+                padding-top: 10px;
             }
             p{
                 margin-top: 5px;
                 font-family: 'M PLUS Rounded 1c', sans-serif;
                 padding-left: 20px;
                 padding-right: 40px;
-                color: #474444;
+                color: grey;
             }
         }
 
