@@ -1,5 +1,51 @@
 // Importamos Font Awesome
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+<<<<<<< HEAD
+
+header{
+    padding: 18px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .header__logo{
+        h3{
+            a{
+              font-family: 'Actor';
+              color: #010b81;
+              font-weight: 500;
+              font-size: 30px;
+              text-decoration: none;
+            }    
+        }
+    }
+    nav{
+        .header__menu{
+            display: flex;
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #474444;
+                margin: 10px;
+                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                &:hover{
+                    color: #0000d0;
+                }
+                
+
+            }
+        }
+    }
+}
+
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 // Spinnner
 
 .spinner-overlay {

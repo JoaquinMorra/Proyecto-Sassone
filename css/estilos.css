@@ -7,6 +7,43 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
+header {
+  padding: 18px;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .header__logo h3 a {
+  font-family: "Actor";
+  color: #010b81;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+}
+header nav .header__menu {
+  display: flex;
+  list-style: none;
+}
+header nav .header__menu a {
+  text-decoration: none;
+  color: #474444;
+  margin: 10px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+header nav .header__menu a:hover {
+  color: #0000d0;
+}
+
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 .spinner-overlay {
   position: fixed;
   top: 0;
@@ -45,6 +82,66 @@
     opacity: 0;
   }
 }
+<<<<<<< HEAD
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.7;
+  display: block; /* Añadir display:block; */
+}
+.slider .slide h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.slider .slide.active {
+  opacity: 1;
+}
+.slider .prev-slide,
+.slider .next-slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+.slider .prev-slide.prev-slide,
+.slider .next-slide.prev-slide {
+  left: 10px;
+}
+.slider .prev-slide.next-slide,
+.slider .next-slide.next-slide {
+  right: 10px;
+}
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 
 .container__calidad {
   margin-top: 80px;
@@ -171,4 +268,28 @@ section .container__nosotros .columna__texto h3 {
   color: #474444;
 }
 
+<<<<<<< HEAD
+section .grid__container-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 500px;
+  background-color: rgba(223, 219, 219, 0.2705882353);
+}
+section .grid__container-formulario .columna__formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .grid__container-formulario .columna__formulario label {
+  margin-bottom: 10px;
+}
+section .grid__container-formulario .columna__formulario input {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+=======
+>>>>>>> cbab808d932f628d2b015991e4fca0d38a1c7ebd
 /*# sourceMappingURL=estilos.css.map */
