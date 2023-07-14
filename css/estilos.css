@@ -7,43 +7,6 @@
   box-sizing: border-box;
 }
 
-header {
-  padding: 18px;
-  padding-bottom: 13px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-}
-
-header .header__logo h3 a {
-  font-family: "Actor";
-  color: #010b81;
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-header nav .header__menu {
-  display: flex;
-  list-style: none;
-}
-
-header nav .header__menu a {
-  text-decoration: none;
-  color: #474444;
-  margin: 10px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-header nav .header__menu a:hover {
-  color: #0000d0;
-}
-
 .spinner-overlay {
   position: fixed;
   top: 0;
@@ -58,7 +21,6 @@ header nav .header__menu a:hover {
   align-items: center;
   animation: fade-out 0.5s ease-out 1s forwards; /* animación de desvanecimiento */
 }
-
 .spinner-overlay .spinner {
   border: 4px solid #f3f3f3; /* color del borde del spinner */
   border-top: 4px solid blue; /* color del borde superior del spinner */
@@ -67,7 +29,6 @@ header nav .header__menu a:hover {
   height: 50px;
   animation: spin 1s linear infinite; /* velocidad de la animación */
 }
-
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -84,82 +45,17 @@ header nav .header__menu a:hover {
     opacity: 0;
   }
 }
-.slider {
-  position: relative;
-  width: 100%;
-  height: 700px;
-  overflow: hidden;
-}
-
-.slider .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.slider .slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  opacity: 0.7;
-  display: block; /* Añadir display:block; */
-}
-
-.slider .slide h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.slider .slide.active {
-  opacity: 1;
-}
-
-.slider .prev-slide,
-.slider .next-slide {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  cursor: pointer;
-}
-
-.slider .prev-slide.prev-slide,
-.slider .next-slide.prev-slide {
-  left: 10px;
-}
-
-.slider .prev-slide.next-slide,
-.slider .next-slide.next-slide {
-  right: 10px;
-}
 
 .container__calidad {
-  margin-top: 30px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 }
-
 .container__calidad .column {
   text-align: center;
   position: relative;
 }
-
 .container__calidad .column:not(:last-child)::before {
   content: "";
   position: absolute;
@@ -169,27 +65,24 @@ header nav .header__menu a:hover {
   width: 1px;
   margin: auto;
   background-color: #a7a7a7;
+  height: 250px;
 }
-
 .container__calidad .column .circle {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .container__calidad .column .circle img {
   width: 200px;
   height: auto;
   object-fit: contain;
 }
-
 .container__calidad .column .circle h3 {
   margin-bottom: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bold;
   color: #010b81;
 }
-
 .container__calidad .column .circle p {
   margin-top: 5px;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -206,31 +99,25 @@ section .container__nosotros {
   padding: 150px;
   background-color: rgba(223, 219, 219, 0.2705882353);
 }
-
 section .container__nosotros .columna__img {
   text-align: center;
   border-right: 1px solid rgba(19, 17, 17, 0.3803921569);
 }
-
 section .container__nosotros .columna__img img {
   height: 400px;
   width: 400px;
 }
-
 section .container__nosotros .columna__img h2 {
   font-family: "Actor";
   color: #010b81;
 }
-
 section .container__nosotros .columna__img h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #474444;
 }
-
 section .container__nosotros .columna__texto {
   padding-left: 40px;
 }
-
 section .container__nosotros .columna__texto h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   color: #474444;
@@ -244,12 +131,10 @@ section .container__nosotros .columna__texto h3 {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
 }
-
 .container__calidad-nosotros .column {
   text-align: center;
   position: relative;
 }
-
 .container__calidad-nosotros .column:not(:last-child)::before {
   content: "";
   position: absolute;
@@ -260,26 +145,22 @@ section .container__nosotros .columna__texto h3 {
   margin: auto;
   background-color: #a7a7a7;
 }
-
 .container__calidad-nosotros .column .circle {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .container__calidad-nosotros .column .circle img {
   width: 200px;
   height: auto;
   object-fit: contain;
 }
-
 .container__calidad-nosotros .column .circle h3 {
   margin-bottom: 10px;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: bold;
   color: #010b81;
 }
-
 .container__calidad-nosotros .column .circle p {
   margin-top: 5px;
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -287,7 +168,5 @@ section .container__nosotros .columna__texto h3 {
   padding-right: 40px;
   color: #474444;
 }
-
-
 
 /*# sourceMappingURL=estilos.css.map */
