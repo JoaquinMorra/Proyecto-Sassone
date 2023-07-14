@@ -194,7 +194,13 @@ input {
     display: grid;
     gap: 1.5rem;
 }
-
+/* Morra */
+.services__img{
+    width: 64px;
+    height: 64px;
+    fill: var(--first-color);
+    margin-bottom: var(--mb-2);
+  }
 /*=============== HEADER ===============*/
 .header {
     width: 100%;
