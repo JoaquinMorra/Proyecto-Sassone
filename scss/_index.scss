@@ -10,6 +10,7 @@ header{
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     .header__logo{
         h3{
             a{
@@ -18,8 +19,7 @@ header{
               font-weight: 500;
               font-size: 30px;
               text-decoration: none;
-            }
-            
+            }    
         }
     }
     nav{
