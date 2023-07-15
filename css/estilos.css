@@ -6,40 +6,6 @@
   box-sizing: border-box;
 }
 
-header {
-  padding: 18px;
-  padding-bottom: 13px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-header .header__logo h3 a {
-  font-family: "Actor";
-  color: #010b81;
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none;
-}
-header nav .header__menu {
-  display: flex;
-  list-style: none;
-}
-header nav .header__menu a {
-  text-decoration: none;
-  color: #474444;
-  margin: 10px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-header nav .header__menu a:hover {
-  color: #0000d0;
-}
-
 .spinner-overlay {
   position: fixed;
   top: 0;
