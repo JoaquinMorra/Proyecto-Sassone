@@ -74,6 +74,7 @@
 body.dark-theme {
     --first-color-second: hsl(var(--hue-color), 54%, 12%);
     --title-color: hsl(var(--hue-color), 24%, 95%);
+    --icon-color: lightskyblue;
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
     --body-color:  rgb(29, 27, 27); 
@@ -198,7 +199,7 @@ input {
 .services__img{
     width: 64px;
     height: 64px;
-    fill: var(--first-color);
+    fill: var(--icon-color);
     margin-bottom: var(--mb-2);
   }
 /*=============== HEADER ===============*/
