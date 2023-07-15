@@ -192,25 +192,45 @@ section .container__nosotros .columna__texto h3 {
   color: #474444;
 }
 
-section .grid__container-formulario {
+/*========== CONTACT ==========*/
+.contact.section .contact__container {
+  text-align: center;
+}
+.contact.section .contact__container .contact__description {
+  margin-bottom: 25px;
+}
+
+.contact.section .section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact.section .contact__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  height: 500px;
-  background-color: rgba(223, 219, 219, 0.2705882353);
+  place-items: center;
+  padding: 2rem;
 }
-section .grid__container-formulario .columna__formulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.contact.section .contact__container .contact__form {
+  display: grid;
+  grid-gap: 1rem;
+  width: 100%;
 }
-section .grid__container-formulario .columna__formulario label {
-  margin-bottom: 10px;
+.contact.section .contact__container .contact__form .contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--first-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
 }
-section .grid__container-formulario .columna__formulario input {
-  width: 300px;
-  margin-bottom: 10px;
+.contact.section .contact__container .contact__form .contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */

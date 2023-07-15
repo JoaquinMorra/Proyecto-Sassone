@@ -184,7 +184,16 @@ input {
     margin-bottom: var(--mb-2);
     padding-top: 15px;
 }
-
+.section-title, .section-subtitle{
+    text-align: center;
+  }
+ 
+   .section-subtitle{
+    display: block;
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+  }
 .container {
     max-width: 968px;
     margin-left: var(--mb-1);
@@ -707,6 +716,7 @@ input {
         width: 470px;
         margin: 0 auto;
     }
+    
 }
 
 @media screen and (min-width: 768px) {
