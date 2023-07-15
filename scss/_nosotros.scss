@@ -3,40 +3,74 @@
 
 
 // Seccion Nosotros
-section{
-    .container__nosotros{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-        align-items: center;
-        padding: 150px;
-        background-color: #dfdbdb45;
-        .columna__img{
-            text-align: center;
-            border-right: 1px solid #13111161;
-            img{
-                height: 400px;
-                width: 400px;
-            }
-            h2{
-                font-family: 'Actor';
-                color: #010b81;
-            }
-            h3{
-                font-family: 'M PLUS Rounded 1c', sans-serif;
-                color: #474444;
-            }
+section {
+    .container__nosotros {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      align-items: center;
+      padding: 150px;
+      background-color: #dfdbdb45;
+  
+      .columna__img {
+        text-align: center;
+        border-right: 1px solid #13111161;
+  
+        img {
+          height: 400px;
+          width: 400px;
         }
-        .columna__texto{
-            padding-left: 40px;
-            h3{
-                font-family: 'M PLUS Rounded 1c', sans-serif;
-                color: #474444;
-                font-size: 15px;
-            }
+  
+        h2 {
+          font-family: 'Actor';
+          color: var(--title-color);
+          padding-bottom: 10px;
+          padding-top: 10px;
         }
+  
+        h3 {
+          font-family: 'M PLUS Rounded 1c', sans-serif;
+          color: var(--text-color-light);
+          padding-bottom: 10px;
+        }
+      }
+  
+      .columna__texto {
+        padding-left: 40px;
+  
+        h3 {
+          font-family: 'M PLUS Rounded 1c', sans-serif;
+          color: var(--text-color-light);
+          font-size: 15px;
+        }
+      }
     }
-}
+  
+    @media screen and (max-width: 767px) {
+      .container__nosotros {
+        display: block;
+        padding: 50px;
+  
+        .columna__img {
+          border-right: none;
+  
+          img {
+            height: auto;
+            width: 100%;
+          }
+        }
+  
+        .columna__texto {
+          padding-left: 0;
+  
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  
 
 // Agregamos margin a la seccion de Calidad en la pagina Nosotros.html
 // .section__nosotros-calidad{

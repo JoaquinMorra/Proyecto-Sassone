@@ -144,19 +144,41 @@ section .container__nosotros .columna__img img {
 }
 section .container__nosotros .columna__img h2 {
   font-family: "Actor";
-  color: #010b81;
+  color: var(--title-color);
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 section .container__nosotros .columna__img h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #474444;
+  color: var(--text-color-light);
+  padding-bottom: 10px;
 }
 section .container__nosotros .columna__texto {
   padding-left: 40px;
 }
 section .container__nosotros .columna__texto h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #474444;
+  color: var(--text-color-light);
   font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  section .container__nosotros {
+    display: block;
+    padding: 50px;
+  }
+  section .container__nosotros .columna__img {
+    border-right: none;
+  }
+  section .container__nosotros .columna__img img {
+    height: auto;
+    width: 100%;
+  }
+  section .container__nosotros .columna__texto {
+    padding-left: 0;
+  }
+  section .container__nosotros .columna__texto h3 {
+    font-size: 14px;
+  }
 }
 
 .container__calidad-nosotros {
