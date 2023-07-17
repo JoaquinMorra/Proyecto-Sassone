@@ -745,6 +745,7 @@ input {
     .place__container {
         grid-template-columns: 1fr;
         justify-content: center;
+        padding-left: 10px;
     }
 
     .container__calidad {
@@ -932,6 +933,24 @@ input {
 @media screen and (min-height: 721px) {
     body {
         margin: 0;
+    }
+   
+
+}
+
+@media screen and (min-height: 900px) {
+    body {
+        margin: 0;
+    }
+    .place__button{
+        margin-right: 4.5px;
+    }
+
+    .title__name{
+        margin-left: 23px;
+    }
+    .productsTitle{
+        margin-left: 25px;
     }
 
 }
