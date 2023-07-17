@@ -95,9 +95,16 @@
 // Section 1 --> Columnas con circulos
 .container__calidad{
     margin-top: 80px;
+    // display: grid;
+    // grid-template-columns: repeat(3,1fr);
+    // justify-content: center;
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
     .column{
         text-align: center;
         position: relative;

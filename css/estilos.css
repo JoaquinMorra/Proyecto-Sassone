@@ -50,6 +50,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .container__calidad .column {
   text-align: center;
@@ -116,7 +118,7 @@ section .container__nosotros .columna__img h2 {
 }
 section .container__nosotros .columna__img h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: var(--text-color-light);
+  color: var(--nosotros-color);
   padding-bottom: 10px;
 }
 section .container__nosotros .columna__texto {
@@ -124,7 +126,7 @@ section .container__nosotros .columna__texto {
 }
 section .container__nosotros .columna__texto h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: var(--text-color-light);
+  color: var(--nosotros-color);
   font-size: 15px;
 }
 @media screen and (max-width: 767px) {

@@ -11,6 +11,7 @@ section {
       align-items: center;
       padding: 150px;
       background-color: #dfdbdb45;
+    // background-color: grey;
   
       .columna__img {
         text-align: center;
@@ -30,7 +31,7 @@ section {
   
         h3 {
           font-family: 'M PLUS Rounded 1c', sans-serif;
-          color: var(--text-color-light);
+          color: var(--nosotros-color);
           padding-bottom: 10px;
         }
       }
@@ -40,7 +41,7 @@ section {
   
         h3 {
           font-family: 'M PLUS Rounded 1c', sans-serif;
-          color: var(--text-color-light);
+          color: var(--nosotros-color);
           font-size: 15px;
         }
       }
