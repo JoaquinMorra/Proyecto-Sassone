@@ -873,6 +873,8 @@ input {
     .about__container {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        padding-left: 10px;
+    padding-top: 25px;
       }
       .about__data, .about__title {
         text-align: initial;
