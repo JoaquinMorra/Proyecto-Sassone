@@ -90,6 +90,7 @@ body.dark-theme {
     position: absolute;
     left: 3rem;
     bottom: 4rem;
+    margin-bottom: 400px;
 }
 
 .change-theme,
@@ -273,6 +274,7 @@ input {
     display: flex;
     flex-direction: column;
     row-gap: 2.5rem;
+    margin-top: 70px;
 }
 
 .nav__link {
@@ -515,7 +517,7 @@ input {
 }
 
 .slide-content h2 {
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 20px;
     /* Ajusta el espacio entre el título y la imagen */
 }
