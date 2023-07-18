@@ -97,6 +97,8 @@ sr.reveal(`.about__img-overlay,
   origin: 'right',
   interval: 100,
 })
+
+
 // Slider
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.slider-dots span');
