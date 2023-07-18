@@ -1,0 +1,17 @@
+.place{
+    .place__container{
+        .place__card{
+            img{
+                height: 190px;
+                padding-left: 60px;
+            }
+            .place__content{
+                .place__data{
+                    .place__price{
+                        color: var(--title-color);
+                    }
+                }
+            }
+        }
+    }
+}

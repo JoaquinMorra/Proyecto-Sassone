@@ -248,4 +248,12 @@ section .container__nosotros .columna__texto h3 {
   margin-left: auto;
 }
 
+.place .place__container .place__card img {
+  height: 190px;
+  padding-left: 60px;
+}
+.place .place__container .place__card .place__content .place__data .place__price {
+  color: var(--title-color);
+}
+
 /*# sourceMappingURL=estilos.css.map */
