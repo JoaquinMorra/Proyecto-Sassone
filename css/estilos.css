@@ -6,40 +6,6 @@
   box-sizing: border-box;
 }
 
-header {
-  padding: 18px;
-  padding-bottom: 13px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-header .header__logo h3 a {
-  font-family: "Actor";
-  color: #010b81;
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none;
-}
-header nav .header__menu {
-  display: flex;
-  list-style: none;
-}
-header nav .header__menu a {
-  text-decoration: none;
-  color: #474444;
-  margin: 10px;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-header nav .header__menu a:hover {
-  color: #0000d0;
-}
-
 .spinner-overlay {
   position: fixed;
   top: 0;
@@ -84,6 +50,8 @@ header nav .header__menu a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .container__calidad .column {
   text-align: center;
@@ -144,19 +112,41 @@ section .container__nosotros .columna__img img {
 }
 section .container__nosotros .columna__img h2 {
   font-family: "Actor";
-  color: #010b81;
+  color: var(--title-color);
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 section .container__nosotros .columna__img h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #474444;
+  color: var(--nosotros-color);
+  padding-bottom: 10px;
 }
 section .container__nosotros .columna__texto {
   padding-left: 40px;
 }
 section .container__nosotros .columna__texto h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  color: #474444;
+  color: var(--nosotros-color);
   font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  section .container__nosotros {
+    display: block;
+    padding: 50px;
+  }
+  section .container__nosotros .columna__img {
+    border-right: none;
+  }
+  section .container__nosotros .columna__img img {
+    height: auto;
+    width: 100%;
+  }
+  section .container__nosotros .columna__texto {
+    padding-left: 0;
+  }
+  section .container__nosotros .columna__texto h3 {
+    font-size: 14px;
+  }
 }
 
 .container__calidad-nosotros {
@@ -204,25 +194,58 @@ section .container__nosotros .columna__texto h3 {
   color: #474444;
 }
 
-section .grid__container-formulario {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  height: 500px;
-  background-color: rgba(223, 219, 219, 0.2705882353);
+/*========== CONTACT ==========*/
+.contact.section .contact__container {
+  text-align: center;
 }
-section .grid__container-formulario .columna__formulario {
+.contact.section .contact__container .contact__description {
+  margin-bottom: 25px;
+}
+
+.map-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  padding: 20px;
 }
-section .grid__container-formulario .columna__formulario label {
-  margin-bottom: 10px;
+.map-container iframe {
+  width: 800px;
+  height: 450px;
+  border: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
-section .grid__container-formulario .columna__formulario input {
-  width: 300px;
-  margin-bottom: 10px;
+
+.contact.section .section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact.section .contact__container {
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+.contact.section .contact__container .contact__form {
+  display: grid;
+  grid-gap: 1rem;
+  width: 100%;
+}
+.contact.section .contact__container .contact__form .contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--first-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+.contact.section .contact__container .contact__form .contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=estilos.css.map */
