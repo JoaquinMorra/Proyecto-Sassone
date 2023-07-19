@@ -808,7 +808,6 @@ input {
     .contact__container {
         display: grid;
         justify-items: center;
-        padding: 2rem;
     }
 }
 
