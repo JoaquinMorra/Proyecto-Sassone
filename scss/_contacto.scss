@@ -1,6 +1,9 @@
 // 
 /*========== CONTACT ==========*/
 .contact.section {
+    .section-title{
+      padding: 10px;
+    }
     .contact__container {
       text-align: center;
   
@@ -25,42 +28,42 @@
 }
 
 
-// Seccion contactate con nosotros.
-.contact.section {
-  .section-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+// // Seccion contactate con nosotros.
+// .contact.section 
+//   .section-title {
+//     text-align: center;
+    
+//   }
 
-  .contact__container {
-    display: grid;
-    place-items: center;
-    padding: 2rem;
+//   .contact__container {
+//     display: grid;
+//     place-items: center;
+//     padding: 2rem;
 
-    .contact__form {
-      display: grid;
-      grid-gap: 1rem;
-      width: 100%;
+//     .contact__form {
+//       display: grid;
+//       grid-gap: 1rem;
+//       width: 100%;
 
-      .contact__input {
-        width: 100%;
-        font-size: var(--normal-font-size);
-        font-weight: var(--font-semi-bold);
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border: 1.5px solid var(--first-color);
-        outline: none;
-        margin-bottom: var(--mb-4);
-      }
+//       .contact__input {
+//         width: 100%;
+//         font-size: var(--normal-font-size);
+//         font-weight: var(--font-semi-bold);
+//         padding: 1rem;
+//         border-radius: 0.5rem;
+//         border: 1.5px solid var(--first-color);
+//         outline: none;
+//         margin-bottom: var(--mb-4);
+//       }
 
-      .contact__button {
-        display: block;
-        border: none;
-        outline: none;
-        font-size: var(--normal-font-size);
-        cursor: pointer;
-        margin-left: auto;
-      }
-    }
-  }
-}
+//       .contact__button {
+//         display: block;
+//         border: none;
+//         outline: none;
+//         font-size: var(--normal-font-size);
+//         cursor: pointer;
+//         margin-left: auto;
+//       }
+//     }
+//   }
+// }

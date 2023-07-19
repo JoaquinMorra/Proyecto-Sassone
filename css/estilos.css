@@ -51,7 +51,6 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 .container__calidad .column {
   text-align: center;
@@ -195,6 +194,9 @@ section .container__nosotros .columna__texto h3 {
 }
 
 /*========== CONTACT ==========*/
+.contact.section .section-title {
+  padding: 10px;
+}
 .contact.section .contact__container {
   text-align: center;
 }
@@ -213,39 +215,6 @@ section .container__nosotros .columna__texto h3 {
   border: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-}
-
-.contact.section .section-title {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.contact.section .contact__container {
-  display: grid;
-  place-items: center;
-  padding: 2rem;
-}
-.contact.section .contact__container .contact__form {
-  display: grid;
-  grid-gap: 1rem;
-  width: 100%;
-}
-.contact.section .contact__container .contact__form .contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi-bold);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--first-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.contact.section .contact__container .contact__form .contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
 }
 
 .place .place__container .place__card img {
